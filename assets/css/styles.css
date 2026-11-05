@@ -36,16 +36,6 @@ body {
   line-height: 1.5;
 }
 
-.preview-banner {
-  background: var(--accent-soft);
-  color: var(--accent);
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  padding: 5px 12px;
-}
-
 .site-wrap {
   max-width: var(--max-width);
   margin: 0 auto;
