@@ -1,12 +1,14 @@
 {
   "meta": {
-    "title": "koko-hangul substance v1",
+    "title": "koko-hangul substance v2",
     "audience": "beginner",
     "author": "Koko",
     "date": "2026-11-05",
     "scope_zh": "初學者韓文字母：基本子音14＋基本母音10為必學；雙子音／複合母音列於字表作進階參考，v1 隨機練習池只含基本24個字母。",
-    "notes_zh": "複合母音收常用11個：ㅐㅔㅒㅖㅘㅙㅚㅝㅞㅟㅢ。雙子音收ㄲㄸㅃㅆㅉ。隨機池（random_pool）暫不含雙子音與複合母音。",
-    "random_pool_scope_zh": "只含 basic_consonants＋basic_vowels 共24項；每項5個初級詞彙。"
+    "notes_zh": "複合母音收常用11個：ㅐㅔㅒㅖㅘㅙㅚㅝㅞㅟㅢ。雙子音收ㄲㄸㅃㅆㅉ。隨機池（random_pool）暫不含雙子音與複合母音。 v2 為 letters_table、random_pool 與各 vocab 詞條加上 IPA（國際音標）。",
+    "random_pool_scope_zh": "只含 basic_consonants＋basic_vowels 共24項；每項5個初級詞彙。",
+    "ipa_note_zh": "IPA 採首爾標準／教材常用寫法：子音標出常見異音（送氣／鬆緊／韻尾）；母音用 a ʌ o u ɯ i 等；複合母音依現代常用讀法（ㅚ≈we）。詞彙 IPA 為整詞讀音，含送氣、緊音與韻尾。",
+    "based_on": "substance-hangul-v1.yaml"
   },
   "letters_table": [
     {
@@ -16,7 +18,8 @@
       "name_zh": "基本子音 ㄱ",
       "roman": "g/k",
       "order": 1,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "k / ɡ / k̚"
     },
     {
       "id": "ㄴ",
@@ -25,7 +28,8 @@
       "name_zh": "基本子音 ㄴ",
       "roman": "n",
       "order": 2,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "n"
     },
     {
       "id": "ㄷ",
@@ -34,7 +38,8 @@
       "name_zh": "基本子音 ㄷ",
       "roman": "d/t",
       "order": 3,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "t / d / t̚"
     },
     {
       "id": "ㄹ",
@@ -43,7 +48,8 @@
       "name_zh": "基本子音 ㄹ",
       "roman": "r/l",
       "order": 4,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "ɾ / l"
     },
     {
       "id": "ㅁ",
@@ -52,7 +58,8 @@
       "name_zh": "基本子音 ㅁ",
       "roman": "m",
       "order": 5,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "m"
     },
     {
       "id": "ㅂ",
@@ -61,7 +68,8 @@
       "name_zh": "基本子音 ㅂ",
       "roman": "b/p",
       "order": 6,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "p / b / p̚"
     },
     {
       "id": "ㅅ",
@@ -70,7 +78,8 @@
       "name_zh": "基本子音 ㅅ",
       "roman": "s",
       "order": 7,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "s / ɕ"
     },
     {
       "id": "ㅇ",
@@ -79,7 +88,8 @@
       "name_zh": "基本子音 ㅇ",
       "roman": "∅ / ng",
       "order": 8,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "∅ / ŋ"
     },
     {
       "id": "ㅈ",
@@ -88,7 +98,8 @@
       "name_zh": "基本子音 ㅈ",
       "roman": "j",
       "order": 9,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "tɕ / dʑ"
     },
     {
       "id": "ㅊ",
@@ -97,7 +108,8 @@
       "name_zh": "基本子音 ㅊ",
       "roman": "ch",
       "order": 10,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "tɕʰ"
     },
     {
       "id": "ㅋ",
@@ -106,7 +118,8 @@
       "name_zh": "送氣子音 ㅋ",
       "roman": "k",
       "order": 11,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "kʰ"
     },
     {
       "id": "ㅌ",
@@ -115,7 +128,8 @@
       "name_zh": "送氣子音 ㅌ",
       "roman": "t",
       "order": 12,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "tʰ"
     },
     {
       "id": "ㅍ",
@@ -124,7 +138,8 @@
       "name_zh": "送氣子音 ㅍ",
       "roman": "p",
       "order": 13,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "pʰ"
     },
     {
       "id": "ㅎ",
@@ -133,7 +148,8 @@
       "name_zh": "基本子音 ㅎ",
       "roman": "h",
       "order": 14,
-      "section": "basic_consonants"
+      "section": "basic_consonants",
+      "ipa": "h"
     },
     {
       "id": "ㅏ",
@@ -142,7 +158,8 @@
       "name_zh": "基本母音 ㅏ",
       "roman": "a",
       "order": 15,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "a"
     },
     {
       "id": "ㅑ",
@@ -151,7 +168,8 @@
       "name_zh": "基本母音 ㅑ",
       "roman": "ya",
       "order": 16,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "ja"
     },
     {
       "id": "ㅓ",
@@ -160,7 +178,8 @@
       "name_zh": "基本母音 ㅓ",
       "roman": "eo",
       "order": 17,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "ʌ"
     },
     {
       "id": "ㅕ",
@@ -169,7 +188,8 @@
       "name_zh": "基本母音 ㅕ",
       "roman": "yeo",
       "order": 18,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "jʌ"
     },
     {
       "id": "ㅗ",
@@ -178,7 +198,8 @@
       "name_zh": "基本母音 ㅗ",
       "roman": "o",
       "order": 19,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "o"
     },
     {
       "id": "ㅛ",
@@ -187,7 +208,8 @@
       "name_zh": "基本母音 ㅛ",
       "roman": "yo",
       "order": 20,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "jo"
     },
     {
       "id": "ㅜ",
@@ -196,7 +218,8 @@
       "name_zh": "基本母音 ㅜ",
       "roman": "u",
       "order": 21,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "u"
     },
     {
       "id": "ㅠ",
@@ -205,7 +228,8 @@
       "name_zh": "基本母音 ㅠ",
       "roman": "yu",
       "order": 22,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "ju"
     },
     {
       "id": "ㅡ",
@@ -214,7 +238,8 @@
       "name_zh": "基本母音 ㅡ",
       "roman": "eu",
       "order": 23,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "ɯ"
     },
     {
       "id": "ㅣ",
@@ -223,7 +248,8 @@
       "name_zh": "基本母音 ㅣ",
       "roman": "i",
       "order": 24,
-      "section": "basic_vowels"
+      "section": "basic_vowels",
+      "ipa": "i"
     },
     {
       "id": "ㄲ",
@@ -232,7 +258,8 @@
       "name_zh": "雙子音 ㄲ（緊音）",
       "roman": "kk",
       "order": 25,
-      "section": "double_consonants"
+      "section": "double_consonants",
+      "ipa": "k͈"
     },
     {
       "id": "ㄸ",
@@ -241,7 +268,8 @@
       "name_zh": "雙子音 ㄸ（緊音）",
       "roman": "tt",
       "order": 26,
-      "section": "double_consonants"
+      "section": "double_consonants",
+      "ipa": "t͈"
     },
     {
       "id": "ㅃ",
@@ -250,7 +278,8 @@
       "name_zh": "雙子音 ㅃ（緊音）",
       "roman": "pp",
       "order": 27,
-      "section": "double_consonants"
+      "section": "double_consonants",
+      "ipa": "p͈"
     },
     {
       "id": "ㅆ",
@@ -259,7 +288,8 @@
       "name_zh": "雙子音 ㅆ（緊音）",
       "roman": "ss",
       "order": 28,
-      "section": "double_consonants"
+      "section": "double_consonants",
+      "ipa": "s͈"
     },
     {
       "id": "ㅉ",
@@ -268,7 +298,8 @@
       "name_zh": "雙子音 ㅉ（緊音）",
       "roman": "jj",
       "order": 29,
-      "section": "double_consonants"
+      "section": "double_consonants",
+      "ipa": "tɕ͈"
     },
     {
       "id": "ㅐ",
@@ -277,7 +308,8 @@
       "name_zh": "複合母音 ㅐ",
       "roman": "ae",
       "order": 30,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "ɛ"
     },
     {
       "id": "ㅔ",
@@ -286,7 +318,8 @@
       "name_zh": "複合母音 ㅔ",
       "roman": "e",
       "order": 31,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "e"
     },
     {
       "id": "ㅒ",
@@ -295,7 +328,8 @@
       "name_zh": "複合母音 ㅒ",
       "roman": "yae",
       "order": 32,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "jɛ"
     },
     {
       "id": "ㅖ",
@@ -304,7 +338,8 @@
       "name_zh": "複合母音 ㅖ",
       "roman": "ye",
       "order": 33,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "je"
     },
     {
       "id": "ㅘ",
@@ -313,7 +348,8 @@
       "name_zh": "複合母音 ㅘ",
       "roman": "wa",
       "order": 34,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "wa"
     },
     {
       "id": "ㅙ",
@@ -322,7 +358,8 @@
       "name_zh": "複合母音 ㅙ",
       "roman": "wae",
       "order": 35,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "wɛ"
     },
     {
       "id": "ㅚ",
@@ -331,7 +368,8 @@
       "name_zh": "複合母音 ㅚ",
       "roman": "oe",
       "order": 36,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "we"
     },
     {
       "id": "ㅝ",
@@ -340,7 +378,8 @@
       "name_zh": "複合母音 ㅝ",
       "roman": "wo",
       "order": 37,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "wʌ"
     },
     {
       "id": "ㅞ",
@@ -349,7 +388,8 @@
       "name_zh": "複合母音 ㅞ",
       "roman": "we",
       "order": 38,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "we"
     },
     {
       "id": "ㅟ",
@@ -358,7 +398,8 @@
       "name_zh": "複合母音 ㅟ",
       "roman": "wi",
       "order": 39,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "wi"
     },
     {
       "id": "ㅢ",
@@ -367,7 +408,8 @@
       "name_zh": "複合母音 ㅢ",
       "roman": "ui",
       "order": 40,
-      "section": "compound_vowels"
+      "section": "compound_vowels",
+      "ipa": "ɯi"
     }
   ],
   "random_pool": [
@@ -376,41 +418,47 @@
       "char": "ㄱ",
       "kind": "consonant",
       "summary_zh": "讀音介乎 g／k。字首常偏軟（接近 g），字尾收成 k 音。與送氣的 ㅋ、緊音 ㄲ 成一組對照。",
+      "ipa": "k / ɡ / k̚",
       "vocab": [
         {
           "word": "가방",
           "meaning_zh": "書包",
           "highlight": [
             "가"
-          ]
+          ],
+          "ipa": "kabaŋ"
         },
         {
           "word": "가다",
           "meaning_zh": "去",
           "highlight": [
             "가"
-          ]
+          ],
+          "ipa": "kada"
         },
         {
           "word": "고기",
           "meaning_zh": "肉",
           "highlight": [
             "고"
-          ]
+          ],
+          "ipa": "kogi"
         },
         {
           "word": "고양이",
           "meaning_zh": "貓",
           "highlight": [
             "고"
-          ]
+          ],
+          "ipa": "kojaŋi"
         },
         {
           "word": "학교",
           "meaning_zh": "學校",
           "highlight": [
             "학"
-          ]
+          ],
+          "ipa": "hak̚k͈jo"
         }
       ]
     },
@@ -419,41 +467,47 @@
       "char": "ㄴ",
       "kind": "consonant",
       "summary_zh": "讀 n，像粵語「你」的聲母。字首、字尾都常見，發音穩定好記。",
+      "ipa": "n",
       "vocab": [
         {
           "word": "나",
           "meaning_zh": "我",
           "highlight": [
             "나"
-          ]
+          ],
+          "ipa": "na"
         },
         {
           "word": "남자",
           "meaning_zh": "男人",
           "highlight": [
             "남"
-          ]
+          ],
+          "ipa": "namdʑa"
         },
         {
           "word": "노래",
           "meaning_zh": "歌",
           "highlight": [
             "노"
-          ]
+          ],
+          "ipa": "nore"
         },
         {
           "word": "눈",
           "meaning_zh": "眼睛；雪",
           "highlight": [
             "눈"
-          ]
+          ],
+          "ipa": "nun"
         },
         {
           "word": "오늘",
           "meaning_zh": "今天",
           "highlight": [
             "늘"
-          ]
+          ],
+          "ipa": "onɯl"
         }
       ]
     },
@@ -462,41 +516,47 @@
       "char": "ㄷ",
       "kind": "consonant",
       "summary_zh": "讀音介乎 d／t。字首偏軟（接近 d），字尾常收成 t。對照送氣 ㅌ、緊音 ㄸ。",
+      "ipa": "t / d / t̚",
       "vocab": [
         {
           "word": "다",
           "meaning_zh": "都；全部",
           "highlight": [
             "다"
-          ]
+          ],
+          "ipa": "ta"
         },
         {
           "word": "달",
           "meaning_zh": "月亮",
           "highlight": [
             "달"
-          ]
+          ],
+          "ipa": "tal"
         },
         {
           "word": "다리",
           "meaning_zh": "腿；橋",
           "highlight": [
             "다"
-          ]
+          ],
+          "ipa": "tari"
         },
         {
           "word": "동생",
           "meaning_zh": "弟弟／妹妹（同輩較年幼）",
           "highlight": [
             "동"
-          ]
+          ],
+          "ipa": "toŋseŋ"
         },
         {
           "word": "먹다",
           "meaning_zh": "吃",
           "highlight": [
             "다"
-          ]
+          ],
+          "ipa": "mʌk̚t͈a"
         }
       ]
     },
@@ -505,41 +565,47 @@
       "char": "ㄹ",
       "kind": "consonant",
       "summary_zh": "字首多像輕彈的 r；字中、字尾常像 l。初學先記「彈舌輕一點的 r／l」即可。",
+      "ipa": "ɾ / l",
       "vocab": [
         {
           "word": "라디오",
           "meaning_zh": "收音機",
           "highlight": [
             "라"
-          ]
+          ],
+          "ipa": "ɾadio"
         },
         {
           "word": "머리",
           "meaning_zh": "頭；頭髮",
           "highlight": [
             "리"
-          ]
+          ],
+          "ipa": "mʌri"
         },
         {
           "word": "물",
           "meaning_zh": "水",
           "highlight": [
             "물"
-          ]
+          ],
+          "ipa": "mul"
         },
         {
           "word": "사랑",
           "meaning_zh": "愛",
           "highlight": [
             "랑"
-          ]
+          ],
+          "ipa": "saraŋ"
         },
         {
           "word": "오늘",
           "meaning_zh": "今天",
           "highlight": [
             "늘"
-          ]
+          ],
+          "ipa": "onɯl"
         }
       ]
     },
@@ -548,41 +614,47 @@
       "char": "ㅁ",
       "kind": "consonant",
       "summary_zh": "讀 m，像「媽」的聲母。字形像嘴巴，好記。",
+      "ipa": "m",
       "vocab": [
         {
           "word": "마시다",
           "meaning_zh": "喝",
           "highlight": [
             "마"
-          ]
+          ],
+          "ipa": "masida"
         },
         {
           "word": "엄마",
           "meaning_zh": "媽媽",
           "highlight": [
             "마"
-          ]
+          ],
+          "ipa": "ʌmma"
         },
         {
           "word": "물",
           "meaning_zh": "水",
           "highlight": [
             "물"
-          ]
+          ],
+          "ipa": "mul"
         },
         {
           "word": "마음",
           "meaning_zh": "心；心情",
           "highlight": [
             "마"
-          ]
+          ],
+          "ipa": "maɯm"
         },
         {
           "word": "이름",
           "meaning_zh": "名字",
           "highlight": [
             "름"
-          ]
+          ],
+          "ipa": "irɯm"
         }
       ]
     },
@@ -591,41 +663,47 @@
       "char": "ㅂ",
       "kind": "consonant",
       "summary_zh": "讀音介乎 b／p。字首偏軟（接近 b），字尾常收成 p。對照送氣 ㅍ、緊音 ㅃ。",
+      "ipa": "p / b / p̚",
       "vocab": [
         {
           "word": "밥",
           "meaning_zh": "飯",
           "highlight": [
             "밥"
-          ]
+          ],
+          "ipa": "pap̚"
         },
         {
           "word": "비",
           "meaning_zh": "雨",
           "highlight": [
             "비"
-          ]
+          ],
+          "ipa": "pi"
         },
         {
           "word": "버스",
           "meaning_zh": "巴士",
           "highlight": [
             "버"
-          ]
+          ],
+          "ipa": "pʌsɯ"
         },
         {
           "word": "보다",
           "meaning_zh": "看",
           "highlight": [
             "보"
-          ]
+          ],
+          "ipa": "poda"
         },
         {
           "word": "가방",
           "meaning_zh": "書包",
           "highlight": [
             "방"
-          ]
+          ],
+          "ipa": "kabaŋ"
         }
       ]
     },
@@ -634,41 +712,47 @@
       "char": "ㅅ",
       "kind": "consonant",
       "summary_zh": "讀 s；接 ㅣ 或 y 類母音時會偏像「sh」。字尾常收成 t 音。對照緊音 ㅆ。",
+      "ipa": "s / ɕ",
       "vocab": [
         {
           "word": "사람",
           "meaning_zh": "人",
           "highlight": [
             "사"
-          ]
+          ],
+          "ipa": "saram"
         },
         {
           "word": "수박",
           "meaning_zh": "西瓜",
           "highlight": [
             "수"
-          ]
+          ],
+          "ipa": "subak̚"
         },
         {
           "word": "시간",
           "meaning_zh": "時間",
           "highlight": [
             "시"
-          ]
+          ],
+          "ipa": "ɕigan"
         },
         {
           "word": "선생님",
           "meaning_zh": "老師",
           "highlight": [
             "선"
-          ]
+          ],
+          "ipa": "sʌnseŋnim"
         },
         {
           "word": "음식",
           "meaning_zh": "食物",
           "highlight": [
             "식"
-          ]
+          ],
+          "ipa": "ɯmɕik̚"
         }
       ]
     },
@@ -677,41 +761,47 @@
       "char": "ㅇ",
       "kind": "consonant",
       "summary_zh": "字首幾乎不發音，只佔位子音位置（例如 아＝a）；字尾讀 ng（像「昂」的尾音）。",
+      "ipa": "∅ / ŋ",
       "vocab": [
         {
           "word": "아이",
           "meaning_zh": "小孩",
           "highlight": [
             "아"
-          ]
+          ],
+          "ipa": "ai"
         },
         {
           "word": "오다",
           "meaning_zh": "來",
           "highlight": [
             "오"
-          ]
+          ],
+          "ipa": "oda"
         },
         {
           "word": "이름",
           "meaning_zh": "名字",
           "highlight": [
             "이"
-          ]
+          ],
+          "ipa": "irɯm"
         },
         {
           "word": "방",
           "meaning_zh": "房間",
           "highlight": [
             "방"
-          ]
+          ],
+          "ipa": "paŋ"
         },
         {
           "word": "강",
           "meaning_zh": "江；河",
           "highlight": [
             "강"
-          ]
+          ],
+          "ipa": "kaŋ"
         }
       ]
     },
@@ -720,41 +810,47 @@
       "char": "ㅈ",
       "kind": "consonant",
       "summary_zh": "讀 j（像「這」）。對照送氣 ㅊ、緊音 ㅉ。",
+      "ipa": "tɕ / dʑ",
       "vocab": [
         {
           "word": "자다",
           "meaning_zh": "睡覺",
           "highlight": [
             "자"
-          ]
+          ],
+          "ipa": "tɕada"
         },
         {
           "word": "집",
           "meaning_zh": "家",
           "highlight": [
             "집"
-          ]
+          ],
+          "ipa": "tɕip̚"
         },
         {
           "word": "저",
           "meaning_zh": "我（謙稱）",
           "highlight": [
             "저"
-          ]
+          ],
+          "ipa": "tɕʌ"
         },
         {
           "word": "진짜",
           "meaning_zh": "真的",
           "highlight": [
             "진"
-          ]
+          ],
+          "ipa": "tɕintɕ͈a"
         },
         {
           "word": "주세요",
           "meaning_zh": "請給我",
           "highlight": [
             "주"
-          ]
+          ],
+          "ipa": "tɕusɛjo"
         }
       ]
     },
@@ -763,41 +859,47 @@
       "char": "ㅊ",
       "kind": "consonant",
       "summary_zh": "讀 ch（送氣，像「車」）。比 ㅈ 多一股氣。",
+      "ipa": "tɕʰ",
       "vocab": [
         {
           "word": "차",
           "meaning_zh": "茶；車",
           "highlight": [
             "차"
-          ]
+          ],
+          "ipa": "tɕʰa"
         },
         {
           "word": "친구",
           "meaning_zh": "朋友",
           "highlight": [
             "친"
-          ]
+          ],
+          "ipa": "tɕʰingu"
         },
         {
           "word": "책",
           "meaning_zh": "書",
           "highlight": [
             "책"
-          ]
+          ],
+          "ipa": "tɕʰɛk̚"
         },
         {
           "word": "아침",
           "meaning_zh": "早上",
           "highlight": [
             "침"
-          ]
+          ],
+          "ipa": "atɕʰim"
         },
         {
           "word": "춤",
           "meaning_zh": "舞",
           "highlight": [
             "춤"
-          ]
+          ],
+          "ipa": "tɕʰum"
         }
       ]
     },
@@ -806,41 +908,47 @@
       "char": "ㅋ",
       "kind": "consonant",
       "summary_zh": "送氣的 k（像「可」），氣流比 ㄱ 明顯。外來語常見。",
+      "ipa": "kʰ",
       "vocab": [
         {
           "word": "커피",
           "meaning_zh": "咖啡",
           "highlight": [
             "커"
-          ]
+          ],
+          "ipa": "kʰʌpʰi"
         },
         {
           "word": "코",
           "meaning_zh": "鼻子",
           "highlight": [
             "코"
-          ]
+          ],
+          "ipa": "kʰo"
         },
         {
           "word": "카메라",
           "meaning_zh": "相機",
           "highlight": [
             "카"
-          ]
+          ],
+          "ipa": "kʰamera"
         },
         {
           "word": "키",
           "meaning_zh": "身高；鎖匙",
           "highlight": [
             "키"
-          ]
+          ],
+          "ipa": "kʰi"
         },
         {
           "word": "쿠키",
           "meaning_zh": "曲奇",
           "highlight": [
             "쿠"
-          ]
+          ],
+          "ipa": "kʰukʰi"
         }
       ]
     },
@@ -849,41 +957,47 @@
       "char": "ㅌ",
       "kind": "consonant",
       "summary_zh": "送氣的 t（像「他」），氣流比 ㄷ 明顯。",
+      "ipa": "tʰ",
       "vocab": [
         {
           "word": "타다",
           "meaning_zh": "搭乘；騎",
           "highlight": [
             "타"
-          ]
+          ],
+          "ipa": "tʰada"
         },
         {
           "word": "토끼",
           "meaning_zh": "兔子",
           "highlight": [
             "토"
-          ]
+          ],
+          "ipa": "tʰok͈i"
         },
         {
           "word": "티셔츠",
           "meaning_zh": "T恤",
           "highlight": [
             "티"
-          ]
+          ],
+          "ipa": "tʰiɕʰʌtsʰɯ"
         },
         {
           "word": "토마토",
           "meaning_zh": "番茄",
           "highlight": [
             "토"
-          ]
+          ],
+          "ipa": "tʰomatʰo"
         },
         {
           "word": "호텔",
           "meaning_zh": "酒店",
           "highlight": [
             "텔"
-          ]
+          ],
+          "ipa": "hotʰel"
         }
       ]
     },
@@ -892,41 +1006,47 @@
       "char": "ㅍ",
       "kind": "consonant",
       "summary_zh": "送氣的 p（像「怕」），氣流比 ㅂ 明顯。",
+      "ipa": "pʰ",
       "vocab": [
         {
           "word": "포도",
           "meaning_zh": "葡萄",
           "highlight": [
             "포"
-          ]
+          ],
+          "ipa": "pʰodo"
         },
         {
           "word": "피자",
           "meaning_zh": "薄餅（披薩）",
           "highlight": [
             "피"
-          ]
+          ],
+          "ipa": "pʰidʑa"
         },
         {
           "word": "커피",
           "meaning_zh": "咖啡",
           "highlight": [
             "피"
-          ]
+          ],
+          "ipa": "kʰʌpʰi"
         },
         {
           "word": "파도",
           "meaning_zh": "波浪",
           "highlight": [
             "파"
-          ]
+          ],
+          "ipa": "pʰado"
         },
         {
           "word": "표",
           "meaning_zh": "票",
           "highlight": [
             "표"
-          ]
+          ],
+          "ipa": "pʰjo"
         }
       ]
     },
@@ -935,41 +1055,47 @@
       "char": "ㅎ",
       "kind": "consonant",
       "summary_zh": "讀 h（像「哈」）。部分組合會弱化或幾乎聽不到，初學先按 h 讀即可。",
+      "ipa": "h",
       "vocab": [
         {
           "word": "하나",
           "meaning_zh": "一",
           "highlight": [
             "하"
-          ]
+          ],
+          "ipa": "hana"
         },
         {
           "word": "하다",
           "meaning_zh": "做",
           "highlight": [
             "하"
-          ]
+          ],
+          "ipa": "hada"
         },
         {
           "word": "학교",
           "meaning_zh": "學校",
           "highlight": [
             "학"
-          ]
+          ],
+          "ipa": "hak̚k͈jo"
         },
         {
           "word": "호수",
           "meaning_zh": "湖",
           "highlight": [
             "호"
-          ]
+          ],
+          "ipa": "hosu"
         },
         {
           "word": "행복",
           "meaning_zh": "幸福",
           "highlight": [
             "행"
-          ]
+          ],
+          "ipa": "hɛŋbok̚"
         }
       ]
     },
@@ -978,41 +1104,47 @@
       "char": "ㅏ",
       "kind": "vowel",
       "summary_zh": "讀 a（啊）。豎線右邊一點。最常用母音之一。",
+      "ipa": "a",
       "vocab": [
         {
           "word": "아이",
           "meaning_zh": "小孩",
           "highlight": [
             "아"
-          ]
+          ],
+          "ipa": "ai"
         },
         {
           "word": "가다",
           "meaning_zh": "去",
           "highlight": [
             "가"
-          ]
+          ],
+          "ipa": "kada"
         },
         {
           "word": "바다",
           "meaning_zh": "海",
           "highlight": [
             "바"
-          ]
+          ],
+          "ipa": "pada"
         },
         {
           "word": "사과",
           "meaning_zh": "蘋果",
           "highlight": [
             "사"
-          ]
+          ],
+          "ipa": "sagwa"
         },
         {
           "word": "사랑",
           "meaning_zh": "愛",
           "highlight": [
             "사"
-          ]
+          ],
+          "ipa": "saraŋ"
         }
       ]
     },
@@ -1021,41 +1153,47 @@
       "char": "ㅑ",
       "kind": "vowel",
       "summary_zh": "讀 ya（呀）。在 ㅏ 上再加一點，等於加了 y。",
+      "ipa": "ja",
       "vocab": [
         {
           "word": "야구",
           "meaning_zh": "棒球",
           "highlight": [
             "야"
-          ]
+          ],
+          "ipa": "jagu"
         },
         {
           "word": "이야기",
           "meaning_zh": "故事；說話",
           "highlight": [
             "야"
-          ]
+          ],
+          "ipa": "ijagi"
         },
         {
           "word": "약속",
           "meaning_zh": "約定；約會",
           "highlight": [
             "약"
-          ]
+          ],
+          "ipa": "jaks͈ok̚"
         },
         {
           "word": "야채",
           "meaning_zh": "蔬菜",
           "highlight": [
             "야"
-          ]
+          ],
+          "ipa": "jatɕʰe"
         },
         {
           "word": "고양이",
           "meaning_zh": "貓",
           "highlight": [
             "양"
-          ]
+          ],
+          "ipa": "kojaŋi"
         }
       ]
     },
@@ -1064,41 +1202,47 @@
       "char": "ㅓ",
       "kind": "vowel",
       "summary_zh": "讀 eo（口型比「喔」更開、偏後）。豎線左邊一點。",
+      "ipa": "ʌ",
       "vocab": [
         {
           "word": "어디",
           "meaning_zh": "哪裡",
           "highlight": [
             "어"
-          ]
+          ],
+          "ipa": "ʌdi"
         },
         {
           "word": "어제",
           "meaning_zh": "昨天",
           "highlight": [
             "어"
-          ]
+          ],
+          "ipa": "ʌdʑe"
         },
         {
           "word": "어머니",
           "meaning_zh": "母親",
           "highlight": [
             "어"
-          ]
+          ],
+          "ipa": "ʌmʌni"
         },
         {
           "word": "서울",
           "meaning_zh": "首爾",
           "highlight": [
             "서"
-          ]
+          ],
+          "ipa": "sʌul"
         },
         {
           "word": "먹다",
           "meaning_zh": "吃",
           "highlight": [
             "먹"
-          ]
+          ],
+          "ipa": "mʌk̚t͈a"
         }
       ]
     },
@@ -1107,41 +1251,47 @@
       "char": "ㅕ",
       "kind": "vowel",
       "summary_zh": "讀 yeo。在 ㅓ 上再加一點（加 y）。",
+      "ipa": "jʌ",
       "vocab": [
         {
           "word": "여자",
           "meaning_zh": "女人",
           "highlight": [
             "여"
-          ]
+          ],
+          "ipa": "jʌdʑa"
         },
         {
           "word": "여행",
           "meaning_zh": "旅行",
           "highlight": [
             "여"
-          ]
+          ],
+          "ipa": "jʌhɛŋ"
         },
         {
           "word": "겨울",
           "meaning_zh": "冬天",
           "highlight": [
             "겨"
-          ]
+          ],
+          "ipa": "kjʌul"
         },
         {
           "word": "열쇠",
           "meaning_zh": "鎖匙",
           "highlight": [
             "열"
-          ]
+          ],
+          "ipa": "jʌls͈we"
         },
         {
           "word": "병원",
           "meaning_zh": "醫院",
           "highlight": [
             "병"
-          ]
+          ],
+          "ipa": "pjʌŋwʌn"
         }
       ]
     },
@@ -1150,41 +1300,47 @@
       "char": "ㅗ",
       "kind": "vowel",
       "summary_zh": "讀 o（圓唇「喔」）。橫線上面一點。",
+      "ipa": "o",
       "vocab": [
         {
           "word": "오다",
           "meaning_zh": "來",
           "highlight": [
             "오"
-          ]
+          ],
+          "ipa": "oda"
         },
         {
           "word": "모자",
           "meaning_zh": "帽子",
           "highlight": [
             "모"
-          ]
+          ],
+          "ipa": "modʑa"
         },
         {
           "word": "손",
           "meaning_zh": "手",
           "highlight": [
             "손"
-          ]
+          ],
+          "ipa": "son"
         },
         {
           "word": "보다",
           "meaning_zh": "看",
           "highlight": [
             "보"
-          ]
+          ],
+          "ipa": "poda"
         },
         {
           "word": "고양이",
           "meaning_zh": "貓",
           "highlight": [
             "고"
-          ]
+          ],
+          "ipa": "kojaŋi"
         }
       ]
     },
@@ -1193,41 +1349,47 @@
       "char": "ㅛ",
       "kind": "vowel",
       "summary_zh": "讀 yo。在 ㅗ 上再加一點（加 y）。",
+      "ipa": "jo",
       "vocab": [
         {
           "word": "요리",
           "meaning_zh": "料理；烹飪",
           "highlight": [
             "요"
-          ]
+          ],
+          "ipa": "jori"
         },
         {
           "word": "교실",
           "meaning_zh": "課室",
           "highlight": [
             "교"
-          ]
+          ],
+          "ipa": "kjosil"
         },
         {
           "word": "요일",
           "meaning_zh": "星期（幾）",
           "highlight": [
             "요"
-          ]
+          ],
+          "ipa": "joil"
         },
         {
           "word": "표",
           "meaning_zh": "票",
           "highlight": [
             "표"
-          ]
+          ],
+          "ipa": "pʰjo"
         },
         {
           "word": "조용하다",
           "meaning_zh": "安靜",
           "highlight": [
             "용"
-          ]
+          ],
+          "ipa": "tɕojoŋhada"
         }
       ]
     },
@@ -1236,41 +1398,47 @@
       "char": "ㅜ",
       "kind": "vowel",
       "summary_zh": "讀 u（烏）。橫線下面一點。",
+      "ipa": "u",
       "vocab": [
         {
           "word": "우리",
           "meaning_zh": "我們",
           "highlight": [
             "우"
-          ]
+          ],
+          "ipa": "uri"
         },
         {
           "word": "물",
           "meaning_zh": "水",
           "highlight": [
             "물"
-          ]
+          ],
+          "ipa": "mul"
         },
         {
           "word": "친구",
           "meaning_zh": "朋友",
           "highlight": [
             "구"
-          ]
+          ],
+          "ipa": "tɕʰingu"
         },
         {
           "word": "수박",
           "meaning_zh": "西瓜",
           "highlight": [
             "수"
-          ]
+          ],
+          "ipa": "subak̚"
         },
         {
           "word": "우유",
           "meaning_zh": "牛奶",
           "highlight": [
             "우"
-          ]
+          ],
+          "ipa": "uju"
         }
       ]
     },
@@ -1279,41 +1447,47 @@
       "char": "ㅠ",
       "kind": "vowel",
       "summary_zh": "讀 yu。在 ㅜ 上再加一點（加 y）。",
+      "ipa": "ju",
       "vocab": [
         {
           "word": "유리",
           "meaning_zh": "玻璃",
           "highlight": [
             "유"
-          ]
+          ],
+          "ipa": "juri"
         },
         {
           "word": "휴일",
           "meaning_zh": "假期",
           "highlight": [
             "휴"
-          ]
+          ],
+          "ipa": "hjuil"
         },
         {
           "word": "유명하다",
           "meaning_zh": "有名",
           "highlight": [
             "유"
-          ]
+          ],
+          "ipa": "jumjʌŋhada"
         },
         {
           "word": "이유",
           "meaning_zh": "理由",
           "highlight": [
             "유"
-          ]
+          ],
+          "ipa": "iju"
         },
         {
           "word": "슈퍼",
           "meaning_zh": "超市",
           "highlight": [
             "슈"
-          ]
+          ],
+          "ipa": "ɕʰupʰʌ"
         }
       ]
     },
@@ -1322,41 +1496,47 @@
       "char": "ㅡ",
       "kind": "vowel",
       "summary_zh": "讀 eu（嘴唇扁、接近「呃」）。就是一條橫線。",
+      "ipa": "ɯ",
       "vocab": [
         {
           "word": "음식",
           "meaning_zh": "食物",
           "highlight": [
             "음"
-          ]
+          ],
+          "ipa": "ɯmɕik̚"
         },
         {
           "word": "크다",
           "meaning_zh": "大",
           "highlight": [
             "크"
-          ]
+          ],
+          "ipa": "kʰɯda"
         },
         {
           "word": "이름",
           "meaning_zh": "名字",
           "highlight": [
             "름"
-          ]
+          ],
+          "ipa": "irɯm"
         },
         {
           "word": "그",
           "meaning_zh": "那個；他／她",
           "highlight": [
             "그"
-          ]
+          ],
+          "ipa": "kɯ"
         },
         {
           "word": "듣다",
           "meaning_zh": "聽",
           "highlight": [
             "듣"
-          ]
+          ],
+          "ipa": "tɯt̚t͈a"
         }
       ]
     },
@@ -1365,41 +1545,47 @@
       "char": "ㅣ",
       "kind": "vowel",
       "summary_zh": "讀 i（衣）。就是一條豎線。",
+      "ipa": "i",
       "vocab": [
         {
           "word": "이름",
           "meaning_zh": "名字",
           "highlight": [
             "이"
-          ]
+          ],
+          "ipa": "irɯm"
         },
         {
           "word": "비",
           "meaning_zh": "雨",
           "highlight": [
             "비"
-          ]
+          ],
+          "ipa": "pi"
         },
         {
           "word": "시장",
           "meaning_zh": "市場",
           "highlight": [
             "시"
-          ]
+          ],
+          "ipa": "ɕidʑaŋ"
         },
         {
           "word": "김치",
           "meaning_zh": "泡菜",
           "highlight": [
             "치"
-          ]
+          ],
+          "ipa": "kimtɕʰi"
         },
         {
           "word": "이다",
           "meaning_zh": "是",
           "highlight": [
             "이"
-          ]
+          ],
+          "ipa": "ida"
         }
       ]
     }

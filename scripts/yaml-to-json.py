@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Regenerate data/hangul.json from briefs/substance-hangul-v1.yaml."""
+"""Regenerate data/hangul.json from briefs/substance-hangul-v2.yaml."""
 import json
 from pathlib import Path
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-yaml_path = ROOT / "briefs" / "substance-hangul-v1.yaml"
+yaml_path = ROOT / "briefs" / "substance-hangul-v2.yaml"
 out_path = ROOT / "data" / "hangul.json"
 
 data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))

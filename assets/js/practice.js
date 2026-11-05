@@ -17,36 +17,66 @@ function pickRandom(excludeId) {
   return candidates[idx];
 }
 
-function romanForChar(char) {
-  const letter = lettersByChar.get(char);
-  return letter && letter.roman ? letter.roman : "";
+function letterMetaForChar(char) {
+  return lettersByChar.get(char) || null;
+}
+
+function renderCharMeta(item) {
+  const metaEl = document.getElementById("char-meta");
+  const letter = letterMetaForChar(item.char);
+  const roman = (letter && letter.roman) || "";
+  const ipa = item.ipa || (letter && letter.ipa) || "";
+
+  metaEl.innerHTML = "";
+  metaEl.hidden = !roman && !ipa;
+
+  if (roman) {
+    metaEl.appendChild(document.createTextNode(roman));
+  }
+  if (ipa) {
+    if (roman) {
+      metaEl.appendChild(document.createTextNode(" · "));
+    }
+    const ipaSpan = document.createElement("span");
+    ipaSpan.className = "char-ipa";
+    ipaSpan.textContent = ipa;
+    metaEl.appendChild(ipaSpan);
+  }
 }
 
 function renderItem(item) {
   const charEl = document.getElementById("char-main");
-  const romanEl = document.getElementById("char-roman");
   const summaryEl = document.getElementById("summary-zh");
   const listEl = document.getElementById("vocab-list");
 
   if (!item) return;
 
   charEl.textContent = item.char;
-  const roman = romanForChar(item.char);
-  romanEl.textContent = roman;
-  romanEl.hidden = !roman;
+  renderCharMeta(item);
   summaryEl.textContent = item.summary_zh || "";
 
   listEl.innerHTML = "";
   (item.vocab || []).forEach((v) => {
     const li = document.createElement("li");
     li.className = "vocab-row";
+
     const wordSpan = document.createElement("span");
     wordSpan.className = "vocab-word";
     wordSpan.innerHTML = highlightWord(v.word, v.highlight);
+
+    if (v.ipa) {
+      const ipaSpan = document.createElement("span");
+      ipaSpan.className = "vocab-ipa";
+      ipaSpan.textContent = v.ipa;
+      li.appendChild(wordSpan);
+      li.appendChild(ipaSpan);
+    } else {
+      li.appendChild(wordSpan);
+    }
+
     const meaningSpan = document.createElement("span");
     meaningSpan.className = "vocab-meaning";
     meaningSpan.textContent = v.meaning_zh || "";
-    li.appendChild(wordSpan);
     li.appendChild(meaningSpan);
     listEl.appendChild(li);
   });
@@ -62,8 +92,7 @@ async function init() {
     lettersByChar.set(L.char, L);
   });
 
-  const btn = document.getElementById("btn-generate");
-  btn.addEventListener("click", () => {
+  document.getElementById("btn-next").addEventListener("click", () => {
     renderItem(pickRandom(lastId));
   });
 
