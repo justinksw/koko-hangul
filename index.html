@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>韓文字母練習 · 練習</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="preview-banner" role="status">PREVIEW · 預覽版（非正式上線）</div>
+    <div class="site-wrap">
+      <header class="site-header">
+        <div>
+          <h1 class="site-title">
+            韓文字母練習
+            <span class="site-title-sub">koko-hangul</span>
+          </h1>
+        </div>
+        <nav class="site-nav" aria-label="主要導覽">
+          <a class="nav-link is-current" href="./" aria-current="page">練習</a>
+          <a class="nav-link" href="table/">字表</a>
+        </nav>
+      </header>
+
+      <main>
+        <article class="practice-panel" aria-live="polite">
+          <div class="char-display">
+            <p class="char-main" id="char-main" lang="ko">ㄱ</p>
+            <p class="char-roman" id="char-roman" lang="en">g/k</p>
+          </div>
+          <p class="summary-zh" id="summary-zh"></p>
+          <h2 class="vocab-heading">相關詞彙</h2>
+          <ul class="vocab-list" id="vocab-list"></ul>
+          <button type="button" class="btn-generate" id="btn-generate">產生</button>
+        </article>
+      </main>
+    </div>
+    <script type="module" src="assets/js/practice.js"></script>
+  </body>
+</html>

@@ -1,0 +1,770 @@
+meta:
+  title: koko-hangul substance v1
+  audience: beginner
+  author: Koko
+  date: '2026-11-05'
+  scope_zh: 初學者韓文字母：基本子音14＋基本母音10為必學；雙子音／複合母音列於字表作進階參考，v1 隨機練習池只含基本24個字母。
+  notes_zh: 複合母音收常用11個：ㅐㅔㅒㅖㅘㅙㅚㅝㅞㅟㅢ。雙子音收ㄲㄸㅃㅆㅉ。隨機池（random_pool）暫不含雙子音與複合母音。
+  random_pool_scope_zh: 只含 basic_consonants＋basic_vowels 共24項；每項5個初級詞彙。
+letters_table:
+- id: ㄱ
+  char: ㄱ
+  kind: consonant
+  name_zh: 基本子音 ㄱ
+  roman: g/k
+  order: 1
+  section: basic_consonants
+- id: ㄴ
+  char: ㄴ
+  kind: consonant
+  name_zh: 基本子音 ㄴ
+  roman: n
+  order: 2
+  section: basic_consonants
+- id: ㄷ
+  char: ㄷ
+  kind: consonant
+  name_zh: 基本子音 ㄷ
+  roman: d/t
+  order: 3
+  section: basic_consonants
+- id: ㄹ
+  char: ㄹ
+  kind: consonant
+  name_zh: 基本子音 ㄹ
+  roman: r/l
+  order: 4
+  section: basic_consonants
+- id: ㅁ
+  char: ㅁ
+  kind: consonant
+  name_zh: 基本子音 ㅁ
+  roman: m
+  order: 5
+  section: basic_consonants
+- id: ㅂ
+  char: ㅂ
+  kind: consonant
+  name_zh: 基本子音 ㅂ
+  roman: b/p
+  order: 6
+  section: basic_consonants
+- id: ㅅ
+  char: ㅅ
+  kind: consonant
+  name_zh: 基本子音 ㅅ
+  roman: s
+  order: 7
+  section: basic_consonants
+- id: ㅇ
+  char: ㅇ
+  kind: consonant
+  name_zh: 基本子音 ㅇ
+  roman: ∅ / ng
+  order: 8
+  section: basic_consonants
+- id: ㅈ
+  char: ㅈ
+  kind: consonant
+  name_zh: 基本子音 ㅈ
+  roman: j
+  order: 9
+  section: basic_consonants
+- id: ㅊ
+  char: ㅊ
+  kind: consonant
+  name_zh: 基本子音 ㅊ
+  roman: ch
+  order: 10
+  section: basic_consonants
+- id: ㅋ
+  char: ㅋ
+  kind: consonant
+  name_zh: 送氣子音 ㅋ
+  roman: k
+  order: 11
+  section: basic_consonants
+- id: ㅌ
+  char: ㅌ
+  kind: consonant
+  name_zh: 送氣子音 ㅌ
+  roman: t
+  order: 12
+  section: basic_consonants
+- id: ㅍ
+  char: ㅍ
+  kind: consonant
+  name_zh: 送氣子音 ㅍ
+  roman: p
+  order: 13
+  section: basic_consonants
+- id: ㅎ
+  char: ㅎ
+  kind: consonant
+  name_zh: 基本子音 ㅎ
+  roman: h
+  order: 14
+  section: basic_consonants
+- id: ㅏ
+  char: ㅏ
+  kind: vowel
+  name_zh: 基本母音 ㅏ
+  roman: a
+  order: 15
+  section: basic_vowels
+- id: ㅑ
+  char: ㅑ
+  kind: vowel
+  name_zh: 基本母音 ㅑ
+  roman: ya
+  order: 16
+  section: basic_vowels
+- id: ㅓ
+  char: ㅓ
+  kind: vowel
+  name_zh: 基本母音 ㅓ
+  roman: eo
+  order: 17
+  section: basic_vowels
+- id: ㅕ
+  char: ㅕ
+  kind: vowel
+  name_zh: 基本母音 ㅕ
+  roman: yeo
+  order: 18
+  section: basic_vowels
+- id: ㅗ
+  char: ㅗ
+  kind: vowel
+  name_zh: 基本母音 ㅗ
+  roman: o
+  order: 19
+  section: basic_vowels
+- id: ㅛ
+  char: ㅛ
+  kind: vowel
+  name_zh: 基本母音 ㅛ
+  roman: yo
+  order: 20
+  section: basic_vowels
+- id: ㅜ
+  char: ㅜ
+  kind: vowel
+  name_zh: 基本母音 ㅜ
+  roman: u
+  order: 21
+  section: basic_vowels
+- id: ㅠ
+  char: ㅠ
+  kind: vowel
+  name_zh: 基本母音 ㅠ
+  roman: yu
+  order: 22
+  section: basic_vowels
+- id: ㅡ
+  char: ㅡ
+  kind: vowel
+  name_zh: 基本母音 ㅡ
+  roman: eu
+  order: 23
+  section: basic_vowels
+- id: ㅣ
+  char: ㅣ
+  kind: vowel
+  name_zh: 基本母音 ㅣ
+  roman: i
+  order: 24
+  section: basic_vowels
+- id: ㄲ
+  char: ㄲ
+  kind: double_consonant
+  name_zh: 雙子音 ㄲ（緊音）
+  roman: kk
+  order: 25
+  section: double_consonants
+- id: ㄸ
+  char: ㄸ
+  kind: double_consonant
+  name_zh: 雙子音 ㄸ（緊音）
+  roman: tt
+  order: 26
+  section: double_consonants
+- id: ㅃ
+  char: ㅃ
+  kind: double_consonant
+  name_zh: 雙子音 ㅃ（緊音）
+  roman: pp
+  order: 27
+  section: double_consonants
+- id: ㅆ
+  char: ㅆ
+  kind: double_consonant
+  name_zh: 雙子音 ㅆ（緊音）
+  roman: ss
+  order: 28
+  section: double_consonants
+- id: ㅉ
+  char: ㅉ
+  kind: double_consonant
+  name_zh: 雙子音 ㅉ（緊音）
+  roman: jj
+  order: 29
+  section: double_consonants
+- id: ㅐ
+  char: ㅐ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅐ
+  roman: ae
+  order: 30
+  section: compound_vowels
+- id: ㅔ
+  char: ㅔ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅔ
+  roman: e
+  order: 31
+  section: compound_vowels
+- id: ㅒ
+  char: ㅒ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅒ
+  roman: yae
+  order: 32
+  section: compound_vowels
+- id: ㅖ
+  char: ㅖ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅖ
+  roman: ye
+  order: 33
+  section: compound_vowels
+- id: ㅘ
+  char: ㅘ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅘ
+  roman: wa
+  order: 34
+  section: compound_vowels
+- id: ㅙ
+  char: ㅙ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅙ
+  roman: wae
+  order: 35
+  section: compound_vowels
+- id: ㅚ
+  char: ㅚ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅚ
+  roman: oe
+  order: 36
+  section: compound_vowels
+- id: ㅝ
+  char: ㅝ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅝ
+  roman: wo
+  order: 37
+  section: compound_vowels
+- id: ㅞ
+  char: ㅞ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅞ
+  roman: we
+  order: 38
+  section: compound_vowels
+- id: ㅟ
+  char: ㅟ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅟ
+  roman: wi
+  order: 39
+  section: compound_vowels
+- id: ㅢ
+  char: ㅢ
+  kind: compound_vowel
+  name_zh: 複合母音 ㅢ
+  roman: ui
+  order: 40
+  section: compound_vowels
+random_pool:
+- id: cons-g
+  char: ㄱ
+  kind: consonant
+  summary_zh: 讀音介乎 g／k。字首常偏軟（接近 g），字尾收成 k 音。與送氣的 ㅋ、緊音 ㄲ 成一組對照。
+  vocab:
+  - word: 가방
+    meaning_zh: 書包
+    highlight: [가]
+  - word: 가다
+    meaning_zh: 去
+    highlight: [가]
+  - word: 고기
+    meaning_zh: 肉
+    highlight: [고]
+  - word: 고양이
+    meaning_zh: 貓
+    highlight: [고]
+  - word: 학교
+    meaning_zh: 學校
+    highlight: [학]
+- id: cons-n
+  char: ㄴ
+  kind: consonant
+  summary_zh: 讀 n，像粵語「你」的聲母。字首、字尾都常見，發音穩定好記。
+  vocab:
+  - word: 나
+    meaning_zh: 我
+    highlight: [나]
+  - word: 남자
+    meaning_zh: 男人
+    highlight: [남]
+  - word: 노래
+    meaning_zh: 歌
+    highlight: [노]
+  - word: 눈
+    meaning_zh: 眼睛；雪
+    highlight: [눈]
+  - word: 오늘
+    meaning_zh: 今天
+    highlight: [늘]
+- id: cons-d
+  char: ㄷ
+  kind: consonant
+  summary_zh: 讀音介乎 d／t。字首偏軟（接近 d），字尾常收成 t。對照送氣 ㅌ、緊音 ㄸ。
+  vocab:
+  - word: 다
+    meaning_zh: 都；全部
+    highlight: [다]
+  - word: 달
+    meaning_zh: 月亮
+    highlight: [달]
+  - word: 다리
+    meaning_zh: 腿；橋
+    highlight: [다]
+  - word: 동생
+    meaning_zh: 弟弟／妹妹（同輩較年幼）
+    highlight: [동]
+  - word: 먹다
+    meaning_zh: 吃
+    highlight: [다]
+- id: cons-r
+  char: ㄹ
+  kind: consonant
+  summary_zh: 字首多像輕彈的 r；字中、字尾常像 l。初學先記「彈舌輕一點的 r／l」即可。
+  vocab:
+  - word: 라디오
+    meaning_zh: 收音機
+    highlight: [라]
+  - word: 머리
+    meaning_zh: 頭；頭髮
+    highlight: [리]
+  - word: 물
+    meaning_zh: 水
+    highlight: [물]
+  - word: 사랑
+    meaning_zh: 愛
+    highlight: [랑]
+  - word: 오늘
+    meaning_zh: 今天
+    highlight: [늘]
+- id: cons-m
+  char: ㅁ
+  kind: consonant
+  summary_zh: 讀 m，像「媽」的聲母。字形像嘴巴，好記。
+  vocab:
+  - word: 마시다
+    meaning_zh: 喝
+    highlight: [마]
+  - word: 엄마
+    meaning_zh: 媽媽
+    highlight: [마]
+  - word: 물
+    meaning_zh: 水
+    highlight: [물]
+  - word: 마음
+    meaning_zh: 心；心情
+    highlight: [마]
+  - word: 이름
+    meaning_zh: 名字
+    highlight: [름]
+- id: cons-b
+  char: ㅂ
+  kind: consonant
+  summary_zh: 讀音介乎 b／p。字首偏軟（接近 b），字尾常收成 p。對照送氣 ㅍ、緊音 ㅃ。
+  vocab:
+  - word: 밥
+    meaning_zh: 飯
+    highlight: [밥]
+  - word: 비
+    meaning_zh: 雨
+    highlight: [비]
+  - word: 버스
+    meaning_zh: 巴士
+    highlight: [버]
+  - word: 보다
+    meaning_zh: 看
+    highlight: [보]
+  - word: 가방
+    meaning_zh: 書包
+    highlight: [방]
+- id: cons-s
+  char: ㅅ
+  kind: consonant
+  summary_zh: 讀 s；接 ㅣ 或 y 類母音時會偏像「sh」。字尾常收成 t 音。對照緊音 ㅆ。
+  vocab:
+  - word: 사람
+    meaning_zh: 人
+    highlight: [사]
+  - word: 수박
+    meaning_zh: 西瓜
+    highlight: [수]
+  - word: 시간
+    meaning_zh: 時間
+    highlight: [시]
+  - word: 선생님
+    meaning_zh: 老師
+    highlight: [선]
+  - word: 음식
+    meaning_zh: 食物
+    highlight: [식]
+- id: cons-ng
+  char: ㅇ
+  kind: consonant
+  summary_zh: 字首幾乎不發音，只佔位子音位置（例如 아＝a）；字尾讀 ng（像「昂」的尾音）。
+  vocab:
+  - word: 아이
+    meaning_zh: 小孩
+    highlight: [아]
+  - word: 오다
+    meaning_zh: 來
+    highlight: [오]
+  - word: 이름
+    meaning_zh: 名字
+    highlight: [이]
+  - word: 방
+    meaning_zh: 房間
+    highlight: [방]
+  - word: 강
+    meaning_zh: 江；河
+    highlight: [강]
+- id: cons-j
+  char: ㅈ
+  kind: consonant
+  summary_zh: 讀 j（像「這」）。對照送氣 ㅊ、緊音 ㅉ。
+  vocab:
+  - word: 자다
+    meaning_zh: 睡覺
+    highlight: [자]
+  - word: 집
+    meaning_zh: 家
+    highlight: [집]
+  - word: 저
+    meaning_zh: 我（謙稱）
+    highlight: [저]
+  - word: 진짜
+    meaning_zh: 真的
+    highlight: [진]
+  - word: 주세요
+    meaning_zh: 請給我
+    highlight: [주]
+- id: cons-ch
+  char: ㅊ
+  kind: consonant
+  summary_zh: 讀 ch（送氣，像「車」）。比 ㅈ 多一股氣。
+  vocab:
+  - word: 차
+    meaning_zh: 茶；車
+    highlight: [차]
+  - word: 친구
+    meaning_zh: 朋友
+    highlight: [친]
+  - word: 책
+    meaning_zh: 書
+    highlight: [책]
+  - word: 아침
+    meaning_zh: 早上
+    highlight: [침]
+  - word: 춤
+    meaning_zh: 舞
+    highlight: [춤]
+- id: cons-k
+  char: ㅋ
+  kind: consonant
+  summary_zh: 送氣的 k（像「可」），氣流比 ㄱ 明顯。外來語常見。
+  vocab:
+  - word: 커피
+    meaning_zh: 咖啡
+    highlight: [커]
+  - word: 코
+    meaning_zh: 鼻子
+    highlight: [코]
+  - word: 카메라
+    meaning_zh: 相機
+    highlight: [카]
+  - word: 키
+    meaning_zh: 身高；鎖匙
+    highlight: [키]
+  - word: 쿠키
+    meaning_zh: 曲奇
+    highlight: [쿠]
+- id: cons-t
+  char: ㅌ
+  kind: consonant
+  summary_zh: 送氣的 t（像「他」），氣流比 ㄷ 明顯。
+  vocab:
+  - word: 타다
+    meaning_zh: 搭乘；騎
+    highlight: [타]
+  - word: 토끼
+    meaning_zh: 兔子
+    highlight: [토]
+  - word: 티셔츠
+    meaning_zh: T恤
+    highlight: [티]
+  - word: 토마토
+    meaning_zh: 番茄
+    highlight: [토]
+  - word: 호텔
+    meaning_zh: 酒店
+    highlight: [텔]
+- id: cons-p
+  char: ㅍ
+  kind: consonant
+  summary_zh: 送氣的 p（像「怕」），氣流比 ㅂ 明顯。
+  vocab:
+  - word: 포도
+    meaning_zh: 葡萄
+    highlight: [포]
+  - word: 피자
+    meaning_zh: 薄餅（披薩）
+    highlight: [피]
+  - word: 커피
+    meaning_zh: 咖啡
+    highlight: [피]
+  - word: 파도
+    meaning_zh: 波浪
+    highlight: [파]
+  - word: 표
+    meaning_zh: 票
+    highlight: [표]
+- id: cons-h
+  char: ㅎ
+  kind: consonant
+  summary_zh: 讀 h（像「哈」）。部分組合會弱化或幾乎聽不到，初學先按 h 讀即可。
+  vocab:
+  - word: 하나
+    meaning_zh: 一
+    highlight: [하]
+  - word: 하다
+    meaning_zh: 做
+    highlight: [하]
+  - word: 학교
+    meaning_zh: 學校
+    highlight: [학]
+  - word: 호수
+    meaning_zh: 湖
+    highlight: [호]
+  - word: 행복
+    meaning_zh: 幸福
+    highlight: [행]
+- id: vowel-a
+  char: ㅏ
+  kind: vowel
+  summary_zh: 讀 a（啊）。豎線右邊一點。最常用母音之一。
+  vocab:
+  - word: 아이
+    meaning_zh: 小孩
+    highlight: [아]
+  - word: 가다
+    meaning_zh: 去
+    highlight: [가]
+  - word: 바다
+    meaning_zh: 海
+    highlight: [바]
+  - word: 사과
+    meaning_zh: 蘋果
+    highlight: [사]
+  - word: 사랑
+    meaning_zh: 愛
+    highlight: [사]
+- id: vowel-ya
+  char: ㅑ
+  kind: vowel
+  summary_zh: 讀 ya（呀）。在 ㅏ 上再加一點，等於加了 y。
+  vocab:
+  - word: 야구
+    meaning_zh: 棒球
+    highlight: [야]
+  - word: 이야기
+    meaning_zh: 故事；說話
+    highlight: [야]
+  - word: 약속
+    meaning_zh: 約定；約會
+    highlight: [약]
+  - word: 야채
+    meaning_zh: 蔬菜
+    highlight: [야]
+  - word: 고양이
+    meaning_zh: 貓
+    highlight: [양]
+- id: vowel-eo
+  char: ㅓ
+  kind: vowel
+  summary_zh: 讀 eo（口型比「喔」更開、偏後）。豎線左邊一點。
+  vocab:
+  - word: 어디
+    meaning_zh: 哪裡
+    highlight: [어]
+  - word: 어제
+    meaning_zh: 昨天
+    highlight: [어]
+  - word: 어머니
+    meaning_zh: 母親
+    highlight: [어]
+  - word: 서울
+    meaning_zh: 首爾
+    highlight: [서]
+  - word: 먹다
+    meaning_zh: 吃
+    highlight: [먹]
+- id: vowel-yeo
+  char: ㅕ
+  kind: vowel
+  summary_zh: 讀 yeo。在 ㅓ 上再加一點（加 y）。
+  vocab:
+  - word: 여자
+    meaning_zh: 女人
+    highlight: [여]
+  - word: 여행
+    meaning_zh: 旅行
+    highlight: [여]
+  - word: 겨울
+    meaning_zh: 冬天
+    highlight: [겨]
+  - word: 열쇠
+    meaning_zh: 鎖匙
+    highlight: [열]
+  - word: 병원
+    meaning_zh: 醫院
+    highlight: [병]
+- id: vowel-o
+  char: ㅗ
+  kind: vowel
+  summary_zh: 讀 o（圓唇「喔」）。橫線上面一點。
+  vocab:
+  - word: 오다
+    meaning_zh: 來
+    highlight: [오]
+  - word: 모자
+    meaning_zh: 帽子
+    highlight: [모]
+  - word: 손
+    meaning_zh: 手
+    highlight: [손]
+  - word: 보다
+    meaning_zh: 看
+    highlight: [보]
+  - word: 고양이
+    meaning_zh: 貓
+    highlight: [고]
+- id: vowel-yo
+  char: ㅛ
+  kind: vowel
+  summary_zh: 讀 yo。在 ㅗ 上再加一點（加 y）。
+  vocab:
+  - word: 요리
+    meaning_zh: 料理；烹飪
+    highlight: [요]
+  - word: 교실
+    meaning_zh: 課室
+    highlight: [교]
+  - word: 요일
+    meaning_zh: 星期（幾）
+    highlight: [요]
+  - word: 표
+    meaning_zh: 票
+    highlight: [표]
+  - word: 조용하다
+    meaning_zh: 安靜
+    highlight: [용]
+- id: vowel-u
+  char: ㅜ
+  kind: vowel
+  summary_zh: 讀 u（烏）。橫線下面一點。
+  vocab:
+  - word: 우리
+    meaning_zh: 我們
+    highlight: [우]
+  - word: 물
+    meaning_zh: 水
+    highlight: [물]
+  - word: 친구
+    meaning_zh: 朋友
+    highlight: [구]
+  - word: 수박
+    meaning_zh: 西瓜
+    highlight: [수]
+  - word: 우유
+    meaning_zh: 牛奶
+    highlight: [우]
+- id: vowel-yu
+  char: ㅠ
+  kind: vowel
+  summary_zh: 讀 yu。在 ㅜ 上再加一點（加 y）。
+  vocab:
+  - word: 유리
+    meaning_zh: 玻璃
+    highlight: [유]
+  - word: 휴일
+    meaning_zh: 假期
+    highlight: [휴]
+  - word: 유명하다
+    meaning_zh: 有名
+    highlight: [유]
+  - word: 이유
+    meaning_zh: 理由
+    highlight: [유]
+  - word: 슈퍼
+    meaning_zh: 超市
+    highlight: [슈]
+- id: vowel-eu
+  char: ㅡ
+  kind: vowel
+  summary_zh: 讀 eu（嘴唇扁、接近「呃」）。就是一條橫線。
+  vocab:
+  - word: 음식
+    meaning_zh: 食物
+    highlight: [음]
+  - word: 크다
+    meaning_zh: 大
+    highlight: [크]
+  - word: 이름
+    meaning_zh: 名字
+    highlight: [름]
+  - word: 그
+    meaning_zh: 那個；他／她
+    highlight: [그]
+  - word: 듣다
+    meaning_zh: 聽
+    highlight: [듣]
+- id: vowel-i
+  char: ㅣ
+  kind: vowel
+  summary_zh: 讀 i（衣）。就是一條豎線。
+  vocab:
+  - word: 이름
+    meaning_zh: 名字
+    highlight: [이]
+  - word: 비
+    meaning_zh: 雨
+    highlight: [비]
+  - word: 시장
+    meaning_zh: 市場
+    highlight: [시]
+  - word: 김치
+    meaning_zh: 泡菜
+    highlight: [치]
+  - word: 이다
+    meaning_zh: 是
+    highlight: [이]
