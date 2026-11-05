@@ -42,7 +42,7 @@ Project Pages base path `/koko-hangul/` applies only on `*.github.io`; local roo
 
 ## Data
 
-- Source YAML: `briefs/substance-hangul-v2.yaml` (canonical; v1 retained for history)
+- Source YAML: `briefs/substance-hangul-v3.yaml` (canonical; older versions in `briefs/`)
 - Runtime JSON: `data/hangul.json` (generated from YAML; regenerate if substance changes)
 
 Regenerate:

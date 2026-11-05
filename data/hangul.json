@@ -1,14 +1,15 @@
 {
   "meta": {
-    "title": "koko-hangul substance v2",
+    "title": "koko-hangul substance v3",
     "audience": "beginner",
     "author": "Koko",
     "date": "2026-11-05",
     "scope_zh": "初學者韓文字母：基本子音14＋基本母音10為必學；雙子音／複合母音列於字表作進階參考，v1 隨機練習池只含基本24個字母。",
-    "notes_zh": "複合母音收常用11個：ㅐㅔㅒㅖㅘㅙㅚㅝㅞㅟㅢ。雙子音收ㄲㄸㅃㅆㅉ。隨機池（random_pool）暫不含雙子音與複合母音。 v2 為 letters_table、random_pool 與各 vocab 詞條加上 IPA（國際音標）。",
+    "notes_zh": "複合母音收常用11個：ㅐㅔㅒㅖㅘㅙㅚㅝㅞㅟㅢ。雙子音收ㄲㄸㅃㅆㅉ。隨機池（random_pool）暫不含雙子音與複合母音。 v2 為 letters_table、random_pool 與各 vocab 詞條加上 IPA（國際音標）。 v3 為 random_pool 各 vocab 詞條加上 roman（韓國標準 Revised Romanization 拉丁轉寫）；v2 原檔保留不動。",
     "random_pool_scope_zh": "只含 basic_consonants＋basic_vowels 共24項；每項5個初級詞彙。",
     "ipa_note_zh": "IPA 採首爾標準／教材常用寫法：子音標出常見異音（送氣／鬆緊／韻尾）；母音用 a ʌ o u ɯ i 等；複合母音依現代常用讀法（ㅚ≈we）。詞彙 IPA 為整詞讀音，含送氣、緊音與韻尾。",
-    "based_on": "substance-hangul-v1.yaml"
+    "based_on": "substance-hangul-v2.yaml",
+    "roman_note_zh": "詞彙 roman 採韓國標準 Revised Romanization of Korean（RR）：ㄱ字首 g、韻尾 k；ㅓ eo；ㅡ eu；ㅇ韻尾 ng 等。全小寫；韓文無空白則 roman 亦不加空白。"
   },
   "letters_table": [
     {
@@ -422,6 +423,7 @@
       "vocab": [
         {
           "word": "가방",
+          "roman": "gabang",
           "meaning_zh": "書包",
           "highlight": [
             "가"
@@ -430,6 +432,7 @@
         },
         {
           "word": "가다",
+          "roman": "gada",
           "meaning_zh": "去",
           "highlight": [
             "가"
@@ -438,6 +441,7 @@
         },
         {
           "word": "고기",
+          "roman": "gogi",
           "meaning_zh": "肉",
           "highlight": [
             "고"
@@ -446,6 +450,7 @@
         },
         {
           "word": "고양이",
+          "roman": "goyangi",
           "meaning_zh": "貓",
           "highlight": [
             "고"
@@ -454,6 +459,7 @@
         },
         {
           "word": "학교",
+          "roman": "hakgyo",
           "meaning_zh": "學校",
           "highlight": [
             "학"
@@ -471,6 +477,7 @@
       "vocab": [
         {
           "word": "나",
+          "roman": "na",
           "meaning_zh": "我",
           "highlight": [
             "나"
@@ -479,6 +486,7 @@
         },
         {
           "word": "남자",
+          "roman": "namja",
           "meaning_zh": "男人",
           "highlight": [
             "남"
@@ -487,6 +495,7 @@
         },
         {
           "word": "노래",
+          "roman": "norae",
           "meaning_zh": "歌",
           "highlight": [
             "노"
@@ -495,6 +504,7 @@
         },
         {
           "word": "눈",
+          "roman": "nun",
           "meaning_zh": "眼睛；雪",
           "highlight": [
             "눈"
@@ -503,6 +513,7 @@
         },
         {
           "word": "오늘",
+          "roman": "oneul",
           "meaning_zh": "今天",
           "highlight": [
             "늘"
@@ -520,6 +531,7 @@
       "vocab": [
         {
           "word": "다",
+          "roman": "da",
           "meaning_zh": "都；全部",
           "highlight": [
             "다"
@@ -528,6 +540,7 @@
         },
         {
           "word": "달",
+          "roman": "dal",
           "meaning_zh": "月亮",
           "highlight": [
             "달"
@@ -536,6 +549,7 @@
         },
         {
           "word": "다리",
+          "roman": "dari",
           "meaning_zh": "腿；橋",
           "highlight": [
             "다"
@@ -544,6 +558,7 @@
         },
         {
           "word": "동생",
+          "roman": "dongsaeng",
           "meaning_zh": "弟弟／妹妹（同輩較年幼）",
           "highlight": [
             "동"
@@ -552,6 +567,7 @@
         },
         {
           "word": "먹다",
+          "roman": "meokda",
           "meaning_zh": "吃",
           "highlight": [
             "다"
@@ -569,6 +585,7 @@
       "vocab": [
         {
           "word": "라디오",
+          "roman": "radio",
           "meaning_zh": "收音機",
           "highlight": [
             "라"
@@ -577,6 +594,7 @@
         },
         {
           "word": "머리",
+          "roman": "meori",
           "meaning_zh": "頭；頭髮",
           "highlight": [
             "리"
@@ -585,6 +603,7 @@
         },
         {
           "word": "물",
+          "roman": "mul",
           "meaning_zh": "水",
           "highlight": [
             "물"
@@ -593,6 +612,7 @@
         },
         {
           "word": "사랑",
+          "roman": "sarang",
           "meaning_zh": "愛",
           "highlight": [
             "랑"
@@ -601,6 +621,7 @@
         },
         {
           "word": "오늘",
+          "roman": "oneul",
           "meaning_zh": "今天",
           "highlight": [
             "늘"
@@ -618,6 +639,7 @@
       "vocab": [
         {
           "word": "마시다",
+          "roman": "masida",
           "meaning_zh": "喝",
           "highlight": [
             "마"
@@ -626,6 +648,7 @@
         },
         {
           "word": "엄마",
+          "roman": "eomma",
           "meaning_zh": "媽媽",
           "highlight": [
             "마"
@@ -634,6 +657,7 @@
         },
         {
           "word": "물",
+          "roman": "mul",
           "meaning_zh": "水",
           "highlight": [
             "물"
@@ -642,6 +666,7 @@
         },
         {
           "word": "마음",
+          "roman": "maeum",
           "meaning_zh": "心；心情",
           "highlight": [
             "마"
@@ -650,6 +675,7 @@
         },
         {
           "word": "이름",
+          "roman": "ireum",
           "meaning_zh": "名字",
           "highlight": [
             "름"
@@ -667,6 +693,7 @@
       "vocab": [
         {
           "word": "밥",
+          "roman": "bap",
           "meaning_zh": "飯",
           "highlight": [
             "밥"
@@ -675,6 +702,7 @@
         },
         {
           "word": "비",
+          "roman": "bi",
           "meaning_zh": "雨",
           "highlight": [
             "비"
@@ -683,6 +711,7 @@
         },
         {
           "word": "버스",
+          "roman": "beoseu",
           "meaning_zh": "巴士",
           "highlight": [
             "버"
@@ -691,6 +720,7 @@
         },
         {
           "word": "보다",
+          "roman": "boda",
           "meaning_zh": "看",
           "highlight": [
             "보"
@@ -699,6 +729,7 @@
         },
         {
           "word": "가방",
+          "roman": "gabang",
           "meaning_zh": "書包",
           "highlight": [
             "방"
@@ -716,6 +747,7 @@
       "vocab": [
         {
           "word": "사람",
+          "roman": "saram",
           "meaning_zh": "人",
           "highlight": [
             "사"
@@ -724,6 +756,7 @@
         },
         {
           "word": "수박",
+          "roman": "subak",
           "meaning_zh": "西瓜",
           "highlight": [
             "수"
@@ -732,6 +765,7 @@
         },
         {
           "word": "시간",
+          "roman": "sigan",
           "meaning_zh": "時間",
           "highlight": [
             "시"
@@ -740,6 +774,7 @@
         },
         {
           "word": "선생님",
+          "roman": "seonsaengnim",
           "meaning_zh": "老師",
           "highlight": [
             "선"
@@ -748,6 +783,7 @@
         },
         {
           "word": "음식",
+          "roman": "eumsik",
           "meaning_zh": "食物",
           "highlight": [
             "식"
@@ -765,6 +801,7 @@
       "vocab": [
         {
           "word": "아이",
+          "roman": "ai",
           "meaning_zh": "小孩",
           "highlight": [
             "아"
@@ -773,6 +810,7 @@
         },
         {
           "word": "오다",
+          "roman": "oda",
           "meaning_zh": "來",
           "highlight": [
             "오"
@@ -781,6 +819,7 @@
         },
         {
           "word": "이름",
+          "roman": "ireum",
           "meaning_zh": "名字",
           "highlight": [
             "이"
@@ -789,6 +828,7 @@
         },
         {
           "word": "방",
+          "roman": "bang",
           "meaning_zh": "房間",
           "highlight": [
             "방"
@@ -797,6 +837,7 @@
         },
         {
           "word": "강",
+          "roman": "gang",
           "meaning_zh": "江；河",
           "highlight": [
             "강"
@@ -814,6 +855,7 @@
       "vocab": [
         {
           "word": "자다",
+          "roman": "jada",
           "meaning_zh": "睡覺",
           "highlight": [
             "자"
@@ -822,6 +864,7 @@
         },
         {
           "word": "집",
+          "roman": "jip",
           "meaning_zh": "家",
           "highlight": [
             "집"
@@ -830,6 +873,7 @@
         },
         {
           "word": "저",
+          "roman": "jeo",
           "meaning_zh": "我（謙稱）",
           "highlight": [
             "저"
@@ -838,6 +882,7 @@
         },
         {
           "word": "진짜",
+          "roman": "jinjja",
           "meaning_zh": "真的",
           "highlight": [
             "진"
@@ -846,6 +891,7 @@
         },
         {
           "word": "주세요",
+          "roman": "juseyo",
           "meaning_zh": "請給我",
           "highlight": [
             "주"
@@ -863,6 +909,7 @@
       "vocab": [
         {
           "word": "차",
+          "roman": "cha",
           "meaning_zh": "茶；車",
           "highlight": [
             "차"
@@ -871,6 +918,7 @@
         },
         {
           "word": "친구",
+          "roman": "chingu",
           "meaning_zh": "朋友",
           "highlight": [
             "친"
@@ -879,6 +927,7 @@
         },
         {
           "word": "책",
+          "roman": "chaek",
           "meaning_zh": "書",
           "highlight": [
             "책"
@@ -887,6 +936,7 @@
         },
         {
           "word": "아침",
+          "roman": "achim",
           "meaning_zh": "早上",
           "highlight": [
             "침"
@@ -895,6 +945,7 @@
         },
         {
           "word": "춤",
+          "roman": "chum",
           "meaning_zh": "舞",
           "highlight": [
             "춤"
@@ -912,6 +963,7 @@
       "vocab": [
         {
           "word": "커피",
+          "roman": "keopi",
           "meaning_zh": "咖啡",
           "highlight": [
             "커"
@@ -920,6 +972,7 @@
         },
         {
           "word": "코",
+          "roman": "ko",
           "meaning_zh": "鼻子",
           "highlight": [
             "코"
@@ -928,6 +981,7 @@
         },
         {
           "word": "카메라",
+          "roman": "kamera",
           "meaning_zh": "相機",
           "highlight": [
             "카"
@@ -936,6 +990,7 @@
         },
         {
           "word": "키",
+          "roman": "ki",
           "meaning_zh": "身高；鎖匙",
           "highlight": [
             "키"
@@ -944,6 +999,7 @@
         },
         {
           "word": "쿠키",
+          "roman": "kuki",
           "meaning_zh": "曲奇",
           "highlight": [
             "쿠"
@@ -961,6 +1017,7 @@
       "vocab": [
         {
           "word": "타다",
+          "roman": "tada",
           "meaning_zh": "搭乘；騎",
           "highlight": [
             "타"
@@ -969,6 +1026,7 @@
         },
         {
           "word": "토끼",
+          "roman": "tokki",
           "meaning_zh": "兔子",
           "highlight": [
             "토"
@@ -977,6 +1035,7 @@
         },
         {
           "word": "티셔츠",
+          "roman": "tisyeocheu",
           "meaning_zh": "T恤",
           "highlight": [
             "티"
@@ -985,6 +1044,7 @@
         },
         {
           "word": "토마토",
+          "roman": "tomato",
           "meaning_zh": "番茄",
           "highlight": [
             "토"
@@ -993,6 +1053,7 @@
         },
         {
           "word": "호텔",
+          "roman": "hotel",
           "meaning_zh": "酒店",
           "highlight": [
             "텔"
@@ -1010,6 +1071,7 @@
       "vocab": [
         {
           "word": "포도",
+          "roman": "podo",
           "meaning_zh": "葡萄",
           "highlight": [
             "포"
@@ -1018,6 +1080,7 @@
         },
         {
           "word": "피자",
+          "roman": "pija",
           "meaning_zh": "薄餅（披薩）",
           "highlight": [
             "피"
@@ -1026,6 +1089,7 @@
         },
         {
           "word": "커피",
+          "roman": "keopi",
           "meaning_zh": "咖啡",
           "highlight": [
             "피"
@@ -1034,6 +1098,7 @@
         },
         {
           "word": "파도",
+          "roman": "pado",
           "meaning_zh": "波浪",
           "highlight": [
             "파"
@@ -1042,6 +1107,7 @@
         },
         {
           "word": "표",
+          "roman": "pyo",
           "meaning_zh": "票",
           "highlight": [
             "표"
@@ -1059,6 +1125,7 @@
       "vocab": [
         {
           "word": "하나",
+          "roman": "hana",
           "meaning_zh": "一",
           "highlight": [
             "하"
@@ -1067,6 +1134,7 @@
         },
         {
           "word": "하다",
+          "roman": "hada",
           "meaning_zh": "做",
           "highlight": [
             "하"
@@ -1075,6 +1143,7 @@
         },
         {
           "word": "학교",
+          "roman": "hakgyo",
           "meaning_zh": "學校",
           "highlight": [
             "학"
@@ -1083,6 +1152,7 @@
         },
         {
           "word": "호수",
+          "roman": "hosu",
           "meaning_zh": "湖",
           "highlight": [
             "호"
@@ -1091,6 +1161,7 @@
         },
         {
           "word": "행복",
+          "roman": "haengbok",
           "meaning_zh": "幸福",
           "highlight": [
             "행"
@@ -1108,6 +1179,7 @@
       "vocab": [
         {
           "word": "아이",
+          "roman": "ai",
           "meaning_zh": "小孩",
           "highlight": [
             "아"
@@ -1116,6 +1188,7 @@
         },
         {
           "word": "가다",
+          "roman": "gada",
           "meaning_zh": "去",
           "highlight": [
             "가"
@@ -1124,6 +1197,7 @@
         },
         {
           "word": "바다",
+          "roman": "bada",
           "meaning_zh": "海",
           "highlight": [
             "바"
@@ -1132,6 +1206,7 @@
         },
         {
           "word": "사과",
+          "roman": "sagwa",
           "meaning_zh": "蘋果",
           "highlight": [
             "사"
@@ -1140,6 +1215,7 @@
         },
         {
           "word": "사랑",
+          "roman": "sarang",
           "meaning_zh": "愛",
           "highlight": [
             "사"
@@ -1157,6 +1233,7 @@
       "vocab": [
         {
           "word": "야구",
+          "roman": "yagu",
           "meaning_zh": "棒球",
           "highlight": [
             "야"
@@ -1165,6 +1242,7 @@
         },
         {
           "word": "이야기",
+          "roman": "iyagi",
           "meaning_zh": "故事；說話",
           "highlight": [
             "야"
@@ -1173,6 +1251,7 @@
         },
         {
           "word": "약속",
+          "roman": "yaksok",
           "meaning_zh": "約定；約會",
           "highlight": [
             "약"
@@ -1181,6 +1260,7 @@
         },
         {
           "word": "야채",
+          "roman": "yachae",
           "meaning_zh": "蔬菜",
           "highlight": [
             "야"
@@ -1189,6 +1269,7 @@
         },
         {
           "word": "고양이",
+          "roman": "goyangi",
           "meaning_zh": "貓",
           "highlight": [
             "양"
@@ -1206,6 +1287,7 @@
       "vocab": [
         {
           "word": "어디",
+          "roman": "eodi",
           "meaning_zh": "哪裡",
           "highlight": [
             "어"
@@ -1214,6 +1296,7 @@
         },
         {
           "word": "어제",
+          "roman": "eoje",
           "meaning_zh": "昨天",
           "highlight": [
             "어"
@@ -1222,6 +1305,7 @@
         },
         {
           "word": "어머니",
+          "roman": "eomeoni",
           "meaning_zh": "母親",
           "highlight": [
             "어"
@@ -1230,6 +1314,7 @@
         },
         {
           "word": "서울",
+          "roman": "seoul",
           "meaning_zh": "首爾",
           "highlight": [
             "서"
@@ -1238,6 +1323,7 @@
         },
         {
           "word": "먹다",
+          "roman": "meokda",
           "meaning_zh": "吃",
           "highlight": [
             "먹"
@@ -1255,6 +1341,7 @@
       "vocab": [
         {
           "word": "여자",
+          "roman": "yeoja",
           "meaning_zh": "女人",
           "highlight": [
             "여"
@@ -1263,6 +1350,7 @@
         },
         {
           "word": "여행",
+          "roman": "yeohaeng",
           "meaning_zh": "旅行",
           "highlight": [
             "여"
@@ -1271,6 +1359,7 @@
         },
         {
           "word": "겨울",
+          "roman": "gyeoul",
           "meaning_zh": "冬天",
           "highlight": [
             "겨"
@@ -1279,6 +1368,7 @@
         },
         {
           "word": "열쇠",
+          "roman": "yeolsoe",
           "meaning_zh": "鎖匙",
           "highlight": [
             "열"
@@ -1287,6 +1377,7 @@
         },
         {
           "word": "병원",
+          "roman": "byeongwon",
           "meaning_zh": "醫院",
           "highlight": [
             "병"
@@ -1304,6 +1395,7 @@
       "vocab": [
         {
           "word": "오다",
+          "roman": "oda",
           "meaning_zh": "來",
           "highlight": [
             "오"
@@ -1312,6 +1404,7 @@
         },
         {
           "word": "모자",
+          "roman": "moja",
           "meaning_zh": "帽子",
           "highlight": [
             "모"
@@ -1320,6 +1413,7 @@
         },
         {
           "word": "손",
+          "roman": "son",
           "meaning_zh": "手",
           "highlight": [
             "손"
@@ -1328,6 +1422,7 @@
         },
         {
           "word": "보다",
+          "roman": "boda",
           "meaning_zh": "看",
           "highlight": [
             "보"
@@ -1336,6 +1431,7 @@
         },
         {
           "word": "고양이",
+          "roman": "goyangi",
           "meaning_zh": "貓",
           "highlight": [
             "고"
@@ -1353,6 +1449,7 @@
       "vocab": [
         {
           "word": "요리",
+          "roman": "yori",
           "meaning_zh": "料理；烹飪",
           "highlight": [
             "요"
@@ -1361,6 +1458,7 @@
         },
         {
           "word": "교실",
+          "roman": "gyosil",
           "meaning_zh": "課室",
           "highlight": [
             "교"
@@ -1369,6 +1467,7 @@
         },
         {
           "word": "요일",
+          "roman": "yoil",
           "meaning_zh": "星期（幾）",
           "highlight": [
             "요"
@@ -1377,6 +1476,7 @@
         },
         {
           "word": "표",
+          "roman": "pyo",
           "meaning_zh": "票",
           "highlight": [
             "표"
@@ -1385,6 +1485,7 @@
         },
         {
           "word": "조용하다",
+          "roman": "joyonghada",
           "meaning_zh": "安靜",
           "highlight": [
             "용"
@@ -1402,6 +1503,7 @@
       "vocab": [
         {
           "word": "우리",
+          "roman": "uri",
           "meaning_zh": "我們",
           "highlight": [
             "우"
@@ -1410,6 +1512,7 @@
         },
         {
           "word": "물",
+          "roman": "mul",
           "meaning_zh": "水",
           "highlight": [
             "물"
@@ -1418,6 +1521,7 @@
         },
         {
           "word": "친구",
+          "roman": "chingu",
           "meaning_zh": "朋友",
           "highlight": [
             "구"
@@ -1426,6 +1530,7 @@
         },
         {
           "word": "수박",
+          "roman": "subak",
           "meaning_zh": "西瓜",
           "highlight": [
             "수"
@@ -1434,6 +1539,7 @@
         },
         {
           "word": "우유",
+          "roman": "uyu",
           "meaning_zh": "牛奶",
           "highlight": [
             "우"
@@ -1451,6 +1557,7 @@
       "vocab": [
         {
           "word": "유리",
+          "roman": "yuri",
           "meaning_zh": "玻璃",
           "highlight": [
             "유"
@@ -1459,6 +1566,7 @@
         },
         {
           "word": "휴일",
+          "roman": "hyuil",
           "meaning_zh": "假期",
           "highlight": [
             "휴"
@@ -1467,6 +1575,7 @@
         },
         {
           "word": "유명하다",
+          "roman": "yumyeonghada",
           "meaning_zh": "有名",
           "highlight": [
             "유"
@@ -1475,6 +1584,7 @@
         },
         {
           "word": "이유",
+          "roman": "iyu",
           "meaning_zh": "理由",
           "highlight": [
             "유"
@@ -1483,6 +1593,7 @@
         },
         {
           "word": "슈퍼",
+          "roman": "syupeo",
           "meaning_zh": "超市",
           "highlight": [
             "슈"
@@ -1500,6 +1611,7 @@
       "vocab": [
         {
           "word": "음식",
+          "roman": "eumsik",
           "meaning_zh": "食物",
           "highlight": [
             "음"
@@ -1508,6 +1620,7 @@
         },
         {
           "word": "크다",
+          "roman": "keuda",
           "meaning_zh": "大",
           "highlight": [
             "크"
@@ -1516,6 +1629,7 @@
         },
         {
           "word": "이름",
+          "roman": "ireum",
           "meaning_zh": "名字",
           "highlight": [
             "름"
@@ -1524,6 +1638,7 @@
         },
         {
           "word": "그",
+          "roman": "geu",
           "meaning_zh": "那個；他／她",
           "highlight": [
             "그"
@@ -1532,6 +1647,7 @@
         },
         {
           "word": "듣다",
+          "roman": "deutda",
           "meaning_zh": "聽",
           "highlight": [
             "듣"
@@ -1549,6 +1665,7 @@
       "vocab": [
         {
           "word": "이름",
+          "roman": "ireum",
           "meaning_zh": "名字",
           "highlight": [
             "이"
@@ -1557,6 +1674,7 @@
         },
         {
           "word": "비",
+          "roman": "bi",
           "meaning_zh": "雨",
           "highlight": [
             "비"
@@ -1565,6 +1683,7 @@
         },
         {
           "word": "시장",
+          "roman": "sijang",
           "meaning_zh": "市場",
           "highlight": [
             "시"
@@ -1573,6 +1692,7 @@
         },
         {
           "word": "김치",
+          "roman": "gimchi",
           "meaning_zh": "泡菜",
           "highlight": [
             "치"
@@ -1581,6 +1701,7 @@
         },
         {
           "word": "이다",
+          "roman": "ida",
           "meaning_zh": "是",
           "highlight": [
             "이"

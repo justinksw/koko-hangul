@@ -44,6 +44,28 @@ function renderCharMeta(item) {
   }
 }
 
+function appendPronFallback(li, roman, ipa) {
+  if (!roman && !ipa) return;
+  const fb = document.createElement("span");
+  fb.className = "vocab-pron-fallback";
+  if (roman) {
+    const ro = document.createElement("span");
+    ro.className = "vocab-roman";
+    ro.textContent = roman;
+    fb.appendChild(ro);
+  }
+  if (roman && ipa) {
+    fb.appendChild(document.createTextNode(" · "));
+  }
+  if (ipa) {
+    const ip = document.createElement("span");
+    ip.className = "vocab-ipa";
+    ip.textContent = ipa;
+    fb.appendChild(ip);
+  }
+  li.appendChild(fb);
+}
+
 function renderItem(item) {
   const charEl = document.getElementById("char-main");
   const summaryEl = document.getElementById("summary-zh");
@@ -63,21 +85,31 @@ function renderItem(item) {
     const wordSpan = document.createElement("span");
     wordSpan.className = "vocab-word";
     wordSpan.innerHTML = highlightWord(v.word, v.highlight);
+    li.appendChild(wordSpan);
 
-    if (v.ipa) {
+    const roman = v.roman || "";
+    const ipa = v.ipa || "";
+
+    if (roman) {
+      const romanSpan = document.createElement("span");
+      romanSpan.className = "vocab-roman vocab-roman-col";
+      romanSpan.textContent = roman;
+      li.appendChild(romanSpan);
+    }
+
+    if (ipa) {
       const ipaSpan = document.createElement("span");
-      ipaSpan.className = "vocab-ipa";
-      ipaSpan.textContent = v.ipa;
-      li.appendChild(wordSpan);
+      ipaSpan.className = "vocab-ipa vocab-ipa-col";
+      ipaSpan.textContent = ipa;
       li.appendChild(ipaSpan);
-    } else {
-      li.appendChild(wordSpan);
     }
 
     const meaningSpan = document.createElement("span");
     meaningSpan.className = "vocab-meaning";
     meaningSpan.textContent = v.meaning_zh || "";
     li.appendChild(meaningSpan);
+
+    appendPronFallback(li, roman, ipa);
     listEl.appendChild(li);
   });
 
